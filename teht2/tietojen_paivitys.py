@@ -30,7 +30,7 @@ def paivita_tiedot(tiedostonimi, tietokanta):
 #Voit lisata omia kokeiluja
 def main():
     tiedostonimi = "suomen_suurimpien_kuntien_asukasluvut.txt"
-    tietokanta = 'kaupungit.db'
+    tietokanta = '../kaupungit.db'
     print("Kokeillaan paivittaa tiedostosta '{}' asukasluvut tietokantaan '{}':".format(tiedostonimi, tietokanta))
     paivita_tiedot(tiedostonimi, tietokanta)
 
