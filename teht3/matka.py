@@ -21,7 +21,7 @@ def hae_kaupunki(nimi, tietokanta):
 # Tätä funktiota ei testata
 # Voit lisätä tänne omia kokeiluja
 def main():
-    tietokanta = 'kaupungit.db'
+    tietokanta = '../kaupungit.db'
 
     print("Ohjelma hakee tietokannasta '{}' kaksi kaupunkia ja laskee niiden etäisyyden.\n".format(tietokanta))
 
