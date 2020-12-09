@@ -14,7 +14,7 @@ def find_city_by_name(city_name, database):
 # Tätä funktiota ei testata
 # Voit lisätä tänne omia kokeiluja
 def main():
-    tietokanta = 'kaupungit.db'
+    tietokanta = '../kaupungit.db'
 
     print("Ohjelma hakee kaupungin tietokannasta '{}'.".format(tietokanta))
     inputstring = input("Kaupungin nimi:")
